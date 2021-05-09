@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app1="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/update"
+        app1:showAsAction="never"
+        android:title="Sửa"
+        />
+    <item
+        android:id="@+id/delete"
+        android:title="Xoá"
+        app1:showAsAction="never" />
+
+</menu>

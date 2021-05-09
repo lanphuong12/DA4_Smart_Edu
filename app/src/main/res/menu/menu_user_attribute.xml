@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_update_info"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Cập nhật thông tin"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_study"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Bài học"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_vocabulary"
+            android:icon="@drawable/ic_baseline_text_format_24"
+            android:title="Từ vựng"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_connectSM"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="Liên hệ"
+            android:iconTint="@android:color/white"/>
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Đăng xuất"
+            android:iconTint="@android:color/white"/>
+
+    </group>
+
+
+</menu>

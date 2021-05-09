@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_word_eng"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:textColor="#3F51B5"
+            android:text="ahihi"
+            android:textStyle="bold|italic"
+            android:textSize="13pt" />
+
+        <ImageButton
+            android:id="@+id/bt_sound_word_eng"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sound"
+            android:text="Chọn"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/tv_meaning_eng"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:text="nghĩa"
+            android:textColor="@color/black"
+            android:maxWidth="280dp"
+            android:textSize="10pt" />
+    </LinearLayout>
+
+</LinearLayout>

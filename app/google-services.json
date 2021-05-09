@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "609801364481",
+    "project_id": "smart-edu-ee6b5",
+    "storage_bucket": "smart-edu-ee6b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609801364481:android:9c4a367b4cf473a9908c00",
+        "android_client_info": {
+          "package_name": "com.example.smart_edu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609801364481-01nrb8pdmh6qusogn4o2c993mou362l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiMkps5hcIqbpxrWw7JOOJc4kVkKyKp3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609801364481-01nrb8pdmh6qusogn4o2c993mou362l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

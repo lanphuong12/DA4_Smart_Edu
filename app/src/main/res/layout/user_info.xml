@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3pt"
+            android:text="THÔNG TIN CÁ NHÂN"
+            android:textColor="@color/black"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--                <TableRow-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginBottom="8pt"-->
+                <!--                    android:gravity="center_vertical">-->
+
+                <!--                    <ImageView-->
+                <!--                        android:id="@+id/img"-->
+                <!--                        android:layout_width="100dp"-->
+                <!--                        android:layout_height="100dp"-->
+                <!--                        android:layout_marginLeft="100dp"-->
+                <!--                        android:background="#B1BDDD" />-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginLeft="20sp"-->
+                <!--                        android:orientation="vertical">-->
+
+                <!--                        <Button-->
+                <!--                            android:id="@+id/btIMGchooser"-->
+                <!--                            android:layout_width="wrap_content"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:onClick="choose"-->
+                <!--                            android:textSize="13dp"-->
+                <!--                            android:textStyle="bold"-->
+                <!--                            android:background="@drawable/button_selector"-->
+                <!--                            android:text="Chọn FILE" />-->
+
+                <!--                        <Button-->
+                <!--                            android:id="@+id/btIMGtake"-->
+                <!--                            android:layout_width="wrap_content"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_marginTop="7dp"-->
+                <!--                            android:textSize="13dp"-->
+                <!--                            android:textStyle="bold"-->
+                <!--                            android:background="@drawable/button_selector"-->
+                <!--                            android:onClick="take"-->
+                <!--                            android:text="Chụp ảnh" />-->
+                <!--                    </LinearLayout>-->
+
+
+                <!--                </TableRow>-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8pt">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="Họ tên:"
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <EditText
+                        android:id="@+id/et_id_namePH"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="nhập họ và tên"
+                        android:textSize="8pt" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8pt">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="SĐT:"
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <EditText
+                        android:id="@+id/edt_sdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="nhập số điện thoại"
+                        android:inputType="phone"
+                        android:textSize="8pt" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8pt">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="Email:"
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <EditText
+                        android:id="@+id/edt_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="nhập email"
+                        android:textSize="8pt" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8pt">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ngày sinh:"
+                        android:textColor="@color/black"
+                        android:textSize="8pt"/>
+
+                    <EditText
+                        android:id="@+id/et_date_of_b"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textSize="8pt" />
+
+                    <ImageButton
+                        android:id="@+id/bt_date_of_b"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20sp"
+                        android:background="@drawable/calendar"
+                        android:text="Chọn"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8pt">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="Địa chỉ:"
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <EditText
+                        android:id="@+id/et_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="nhập địa chỉ"
+                        android:textSize="8pt" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8pt">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="Lớp:"
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <Spinner
+                        android:id="@+id/sp_class"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8pt">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="Họ tên HS:"
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <Spinner
+                        android:id="@+id/sp_name_baby"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/bt_cancel_student"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20pt"
+                        android:background="@drawable/button_selector"
+                        android:onClick="Cancel_student"
+                        android:text=""
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/bt_info_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_selector"
+                        android:onClick="info_user"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

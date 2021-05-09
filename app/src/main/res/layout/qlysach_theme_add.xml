@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THEME"
+            android:textColor="@color/black"
+            android:textSize="15pt"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="10pt"
+            android:padding="5pt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8pt">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã sách: "
+                    android:textSize="8pt"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/ed_ma_sach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="mã sách"
+                    android:textSize="8pt" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8pt">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên theme: "
+                    android:textSize="8pt"
+                    android:textColor="@color/black"  />
+
+                <EditText
+                    android:id="@+id/et_name_theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="nhập tên theme"
+                    android:inputType="textPersonName"
+                    android:textSize="8pt" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8pt">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Id link bài học: "
+                    android:textSize="8pt"
+                    android:textColor="@color/black"  />
+
+                <EditText
+                    android:id="@+id/ed_id_lession"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="nhập mã sách"
+                    android:inputType="textPersonName"
+                    android:textSize="8pt" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/bt_cancel_theme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_selector"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_marginRight="20pt"
+                    android:text="" />
+
+                <Button
+                    android:id="@+id/bt_add_theme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_selector"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:onClick="FINISH"
+                    android:text="" />
+            </TableRow>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

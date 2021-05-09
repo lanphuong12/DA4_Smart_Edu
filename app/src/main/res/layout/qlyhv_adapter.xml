@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_name_HV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Tên học viên hiển thị ở đây"
+            android:textColor="#041CD5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_below="@+id/tv_name_HV"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:text="Mã lớp:"
+            android:textColor="#292F5E"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_admin_hs_lop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_below="@+id/tv_name_HV"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/text"
+            android:text="ahihi"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:id="@+id/tview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_below="@+id/tv_admin_hs_lop"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:text="SĐT bố/mẹ:"
+            android:textColor="#292F5E"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_admin_hs_sdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_below="@+id/tv_admin_hs_lop"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/tview"
+            android:text="I'm here"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tview_diachi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_below="@+id/tview"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:text="Địa chỉ:"
+            android:textColor="#292F5E"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_admin_hs_diachi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_below="@+id/tv_admin_hs_sdt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/tview_diachi"
+            android:text="I'm here"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/bt_vang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#DA0303"
+            android:gravity="center"
+            android:text="Vắng"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
